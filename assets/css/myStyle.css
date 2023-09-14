@@ -1,0 +1,180 @@
+*{box-sizing: border-box;}
+
+
+/*.bg-transparent{background-color: transparent;}*/
+a{text-decoration: none;}
+
+.container{margin: 0 auto;}
+.grey-bg{background-color: #f1f1f1;}
+.navbar{
+    width: 100vw;
+    position: fixed;
+    z-index: 55555;
+}
+
+.hero{
+    height: 100vh;
+    background-color: #002794cb;
+    background-image: url(./../images/background-pens\ -\ Crop.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.z5{z-index: 55;}
+ .overlay{
+    background-color: #002794cb;
+    position: absolute;
+    z-index: 30;
+    width: 100vw;
+    height: 100vh;
+}
+.hero h4{font-size: 1rem;margin: 1.5rem;}
+.hero h1{font-size: 3.5rem;margin: 1rem;}
+
+.btn{
+    padding: .5rem 1.5rem;
+     background-color: #0471ff;
+    border-radius: 3rem;
+    color: white;
+    font-weight: bold;
+}
+.hero .btn , .education-for-tomorrow .btn{
+    background-color: #0471ff;
+}
+.hero a{color: white;}
+
+/***************/
+
+.top-category {padding: 2rem;text-align: center;}
+h2{font-size: 2rem;color: #0a296b; margin: 2rem;}
+.top-category .row{padding: 0;}
+
+.top-category .item{
+display: flex;
+align-items: center;
+border-radius: .5rem;
+}
+.p-1{padding: 1.5rem !important }
+.top-category h4{margin: 0;font-size: 1rem;}
+.top-category .item i{
+    background-color: white;
+    padding: .5rem ;
+    font-size: 2rem;
+    color: rgb(0, 140, 255);
+    margin: 1rem .5rem 1rem 1rem;
+    border-radius: .5rem;
+}
+.top-category .item  p{color: grey;font-size: .8rem;}
+
+
+
+
+
+/*********/
+
+.become-an-instructor{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+.become-an-instructor div{max-width: 500px;margin: 2rem;}
+.become-an-instructor img{transform: translate(0% ,-50%);}
+.become-an-instructor p{display: inline;}
+.become-an-instructor i{color: green;}
+
+
+/*****/
+.services{text-align: center;padding: 3rem 2rem;}
+.services .item{
+    border: .08rem solid #ccc;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+.services i{
+    padding: 1rem;
+    border: .01rem solid #ccc;
+    border-radius: 100%;
+    color: #0a296b;
+    font-size: 2rem;
+}
+.services h4{color: #0a296b;margin: 1rem .5rem .5rem .5rem;}
+.services p {margin-bottom: 4rem;}
+
+
+
+/*********/
+
+.right-course{
+    padding: 3rem;
+    text-align: center;
+}
+
+.right-course p{margin: 1rem 0rem 4rem 0rem;}
+.right-course .item{
+    border: 0.01rem solid #ccc;
+    box-shadow: -.1rem -.1rem  .8rem #aaa;
+    text-align: left;
+}
+
+.right-course img{max-width: inherit;width: 100%;}
+.right-course .item>div>div{display: flex;justify-content: space-between;margin: 1rem 0rem}
+.right-course .item div>div:last-of-type{color:gold;}
+.right-course .item div>div:first-of-type{color: #0a296b;}
+.before-hr{border-top:.01rem solid #ccc ;padding: 1rem;font-weight: bold;}
+
+.p-05{padding: 1rem;}
+/***********/
+
+
+.education-for-tomorrow{
+    height: 100vh;
+    background: url(./../images/students-knowing-right-answer.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 4rem;
+    position: relative;
+}
+
+
+
+.education-for-tomorrow p{font-size: 1rem;margin: 1.5rem;}
+.education-for-tomorrow h3{font-size: 2.5rem;margin: 1rem;}
+
+.btn{
+    padding: .5rem 1.5rem;
+    background-color: #16509c;
+    border-radius: 3rem;
+    color: white;
+}
+.education-for-tomorrow a{color: white;}
+
+/***************************/
+
+.about{
+    padding: 2rem;
+}
+.about .container{display: flex;}
+.width50{width: 50%;}
+.about img{max-width: 500px;transform: translate(-20% , -20%);z-index: 10;position: absolute;max-width: 300px;max-height: 300px;}
+.about p{display: inline;}
+.about i{color: green;}
+.about .back{position: absolute;background-color: #cab1fa;z-index: 1;width: 300px;height: 300px;}
+.pst-ab{position: relative;}
+.about span{margin: .5rem;}
+
+
+.light-bg{background-color: white;border: .05rem solid #002794cb ;color: #0a296b;}
+
+@media (max-width:992px){
+    .sm-hiddne{display: none;}
+    
+.about .pst-ab{display: none;}
+
+}
